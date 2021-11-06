@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24.2857495,34.6778339 C23.7120162,34.0703517 22.7818109,34.0703517 22.2080777,34.6778339 C21.6343445,35.2853161 21.6343445,36.2702394 22.2080777,36.8777217 L29.5537567,44.6554994 C30.1274899,45.2629817 31.0576953,45.2629817 31.6314285,44.6554994 L47.7919223,27.5443883 C48.3656555,26.9369061 48.3656555,25.9519828 47.7919223,25.3445006 C47.2181891,24.7370183 46.2879838,24.7370183 45.7142505,25.3445006 L30.5925926,41.3556678 L24.2857495,34.6778339 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Order-Completed" transform="translate(-686.000000, -124.000000)">
+            <g id="Group-3" transform="translate(686.000000, 124.000000)">
+                <circle id="Oval" stroke="#011E41" stroke-width="3" cx="35" cy="35" r="33.5"></circle>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#011E41" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

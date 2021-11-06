@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170910 at Wed Sep 20 00:00:16 2017
+ By Jimmy Wärting
+Copyright 2016 Google Inc. All Rights Reserved.
+</metadata>
+<defs>
+<font id="NotoSansKhmer-Thin" horiz-adv-x="220" >
+  <font-face 
+    font-family="Noto Sans Khmer Thin"
+    font-weight="100"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 11 2 2 4 5 4 2 2 4"
+    ascent="800"
+    descent="-200"
+    bbox="14 -158 374 724"
+    underline-thickness="50"
+    underline-position="-125"
+    unicode-range="U+000D-00BB"
+  />
+<missing-glyph horiz-adv-x="612" 
+ />
+    <glyph glyph-name=".notdef" horiz-adv-x="612" 
+ />
+    <glyph glyph-name="glyph1" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="glyph1" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="uni000D" unicode="&#xd;" horiz-adv-x="260" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="260" 
+ />
+    <glyph glyph-name="exclam" unicode="!" horiz-adv-x="223" 
+d="M124 174h-24l-2 540h28zM85 23q0 12 5 21.5t20 9.5q18 0 22.5 -9.5t4.5 -21.5q0 -13 -4.5 -22t-22.5 -9q-15 0 -20 9t-5 22z" />
+    <glyph glyph-name="quotedbl" unicode="&#x22;" horiz-adv-x="320" 
+d="M77 456l-4 258h28l-4 -258h-20zM223 456l-4 258h28l-4 -258h-20z" />
+    <glyph glyph-name="quotesingle" unicode="'" horiz-adv-x="172" 
+d="M77 456l-4 258h28l-4 -258h-20z" />
+    <glyph glyph-name="parenleft" unicode="(" horiz-adv-x="255" 
+d="M42 274q0 133 38.5 246t106.5 194h33q-77 -88 -114 -200.5t-37 -238.5q0 -125 37.5 -234.5t113.5 -198.5h-33q-68 84 -106.5 192.5t-38.5 239.5z" />
+    <glyph glyph-name="parenright" unicode=")" horiz-adv-x="255" 
+d="M214 282q0 -133 -38.5 -246t-106.5 -194h-33q77 88 114 200.5t37 238.5q0 125 -37.5 234.5t-113.5 198.5h33q68 -84 106.5 -192.5t38.5 -239.5z" />
+    <glyph glyph-name="comma" unicode="," horiz-adv-x="183" 
+d="M122 116l3 -12q-11 -56 -27.5 -118.5t-37.5 -114.5h-22q22 73 35 130.5t21 114.5h28z" />
+    <glyph glyph-name="hyphen" unicode="-" horiz-adv-x="322" 
+d="M54 254v28h214v-28h-214z" />
+    <glyph glyph-name="period" unicode="." 
+d="M85 23q0 12 5 21.5t20 9.5q18 0 22.5 -9.5t4.5 -21.5q0 -13 -4.5 -22t-22.5 -9q-15 0 -20 9t-5 22z" />
+    <glyph glyph-name="slash" unicode="/" horiz-adv-x="319" 
+d="M14 0l266 714h23l-266 -714h-23z" />
+    <glyph glyph-name="colon" unicode=":" 
+d="M85 501q0 12 5 21.5t20 9.5q18 0 22.5 -9.5t4.5 -21.5q0 -13 -4.5 -22t-22.5 -9q-15 0 -20 9t-5 22zM85 23q0 12 5 21.5t20 9.5q18 0 22.5 -9.5t4.5 -21.5q0 -13 -4.5 -22t-22.5 -9q-15 0 -20 9t-5 22z" />
+    <glyph glyph-name="semicolon" unicode=";" 
+d="M85 501q0 12 5 21.5t20 9.5q18 0 22.5 -9.5t4.5 -21.5q0 -13 -4.5 -22t-22.5 -9q-15 0 -20 9t-5 22zM122 116l3 -12q-11 -56 -27.5 -118.5t-37.5 -114.5h-22q22 73 35 130.5t21 114.5h28z" />
+    <glyph glyph-name="question" unicode="?" horiz-adv-x="413" 
+d="M144 174v12q0 50 7 81.5t25 55t53 48.5q36 25 62.5 50t41 56t14.5 77q0 75 -44.5 110t-114.5 35q-37 0 -70.5 -8t-69.5 -26l-10 26q44 18 77 25.5t73 7.5q84 0 135 -42t51 -128q0 -50 -16.5 -85.5t-46 -63t-69.5 -55.5q-39 -27 -56 -61.5t-17 -102.5v-12h-25zM133 23
+q0 12 5 21.5t20 9.5q18 0 22.5 -9.5t4.5 -21.5q0 -13 -4.5 -22t-22.5 -9q-15 0 -20 9t-5 22z" />
+    <glyph glyph-name="guillemotleft" unicode="&#xab;" horiz-adv-x="389" 
+d="M26 285l152 187l16 -12l-137 -181l137 -181l-16 -11l-152 185v13zM195 285l152 187l16 -12l-137 -181l137 -181l-16 -11l-152 185v13z" />
+    <glyph glyph-name="uni00A0" unicode="&#xa0;" horiz-adv-x="260" 
+ />
+    <glyph glyph-name="uni00AD" unicode="&#xad;" horiz-adv-x="322" 
+d="M54 254v28h214v-28h-214z" />
+    <glyph glyph-name="guillemotright" unicode="&#xbb;" horiz-adv-x="389" 
+d="M363 274l-152 -187l-16 12l137 181l-137 181l16 11l152 -185v-13zM194 274l-152 -187l-16 12l137 181l-137 181l16 11l152 -185v-13z" />
+  </font>
+</defs></svg>

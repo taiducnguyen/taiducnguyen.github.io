@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A02D6016-0084-42BB-9D5A-C7E94E15C706</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkout---Delivery-Details---Error" transform="translate(-149.000000, -302.000000)" fill="#011E41" fill-rule="nonzero" stroke="#011E41" stroke-width="0.3">
+            <g id="Group-18" transform="translate(130.000000, 296.000000)">
+                <g id="information" transform="translate(20.000000, 7.000000)">
+                    <path d="M10,0 C4.47253906,0 0,4.69657617 0,10.5 C0,16.303834 4.47292969,21 10,21 C15.5274609,21 20,16.3034238 20,10.5 C20,4.69616602 15.5270313,0 10,0 Z M10,19.3846154 C5.32292379,19.3846154 1.53846154,15.410601 1.53846154,10.5 C1.53846154,5.58906998 5.32323718,1.61538462 10,1.61538462 C14.6770762,1.61538462 18.4615385,5.58939904 18.4615385,10.5 C18.4615385,15.41093 14.6767236,19.3846154 10,19.3846154 Z" id="Shape"></path>
+                    <path d="M10,8.4 C9.4477,8.4 9,8.84559668 9,9.39530194 L9,15.8046981 C9,16.3544033 9.4477,16.8 10,16.8 C10.5523,16.8 11,16.3543536 11,15.8046483 L11,9.39530194 C11,8.84559668 10.5523,8.4 10,8.4 Z" id="Path"></path>
+                    <ellipse id="Oval" cx="10" cy="6.3" rx="1" ry="1.05"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
