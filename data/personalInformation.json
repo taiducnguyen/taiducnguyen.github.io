@@ -16,23 +16,18 @@
     },
     {
         "type": "normal",
-        "title": "Introducing",
-        "content": "I am a developer and always find the new challenge to improve my self. I don't know everything, I'm not expert but I know how to resolve the problems."
-    },
-    {
-        "type": "normal",
-        "title": "Quotes",
-        "content": "- We can teach you skills but attitude - we can not. </br> - Responsibility decides who you are, what you can do."
+        "title": "About Me",
+        "content": "Senior Front-End Developer with 6 years of proven leadership and meaningful contributions to teams of varying size and scope. With my quality-driven mentality along with seeking, learning and teaching new, efficient technologies, I am able to make aggressive deadlines consistently achievable. Passionate about going the extra mile to ensure the best performance for website, my customers are unquestionably satisfied with the product or service provided. With emphasis on scalable and well-documented code, I look forward to working collaboratively as well as being a highly contributive member in your company."
     },
     {
         "type": "normal",
         "title": "Education",
-        "content": "[2011-2015] Engineer of Software Engineering<br/><a href='https://www.haui.edu.vn/en'>Ha Noi University of Industry</a>"
+        "content": "[2011-2015] Engineer's degree of software engineering<br/><a href='https://www.haui.edu.vn/en'>Ha Noi University of Industry</a>"
     },
     {
         "type": "normal",
         "title": "Certificates",
-        "content": "- Episerver CMS 7 <br/> - 2016 MCSD Web Applications (480, 486, 487)"
+        "content": "- [2017] Episerver CMS 7 <br/> - [2016] MCSD Web Applications (480, 486, 487)"
     },
     {
         "type": "skills",
@@ -74,8 +69,12 @@
                 "name": "SQL Server",
                 "score": "5"
             }
-
         ]
+    },
+    {
+        "type": "normal",
+        "title": "Quotes",
+        "content": "- We can teach you skills but attitude - we can not. </br> - Responsibility decides who you are, what you can do."
     },
     {
         "type": "normal",
