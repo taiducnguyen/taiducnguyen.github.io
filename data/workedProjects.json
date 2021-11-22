@@ -1,0 +1,50 @@
+[
+    {
+        "type":"project",
+        "projectName": "Litium Back Office System",
+        "role": "Frontend Developer",
+        "description": "Litium BO is CMS system for content and ecommerce website <a href='https://www.litium.com/' target='_blank'>https://www.litium.com/</a>",
+        "skillset": "Angularjs, Angular, Reactjs, Html5, css3, sass, webpack",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, Angular, Reactjs, html5, css3, webpack.</li><li>Intergrate with .Net including MVC, .net core</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "North shore care",
+        "role": "Frontend Developer",
+        "description": "Develop the new version of web site <a target='_blank' href='https://www.northshorecare.com/'>https://www.northshorecare.com/</a>",
+        "skillset": "Vuejs, Html5, javascript, jquery, css3, sass, gulp",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Vuejs, javascript, html5, css3.</li><li>Intergrate with episerver backend cms</li><li>Improve performance of website</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "RoyallMint ecommerce web site",
+        "role": "Frontend Developer",
+        "description": "Develop the new version of web site <a target='_blank' href='https://royalmint.com'>https://royalmint.com/</a>",
+        "skillset": "Angularjs, bootstrap 3, Html5, javascript, jquery, css3, sass, gulp",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, jquery, bootstrap 3, html5, css3.</li><li>Intergrate with episerver backend cms</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "Farrow & Ball ecommerce web site",
+        "role": "Frontend Developer",
+        "description": "Develop the new version of web site <a target='_blank' href='https://www.farrow-ball.com/'>https://www.farrow-ball.com/</a>",
+        "skillset": "Angularjs, bootstrap 3, Html5, javascript, jquery, css3, sass, gulp",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, jquery, bootstrap 3, html5, css3.</li><li>Intergrate with episerver backend cms</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "ilang.vn",
+        "role": "Frontend Developer",
+        "description": "Develop the web app <a target='_blank' href='https://ilang.vn/'>https://ilang.vn/</a>",
+        "skillset": "Reactjs, bootstrap 4, Html5, javascript,  css3, sass, webpack",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Reactjs, bootstrap 4, html5, css3.</li><li>Intergrate with java backend.</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "WeAgree",
+        "role": "Frontend Developer",
+        "description": "Developing features of the <a target='_blank' href='https://www.weagree.nsw.gov.au/'>https://www.weagree.nsw.gov.au/</a>",
+        "skillset": "Reactjs, bootstrap 4, Html5, javascript,  css3, sass, webpack",
+        "responsibilities": "<ul><li>Focus on develop front-end of the system and take responsibility as a contact point.</li><li>Support some back-end function related to ASP.NET MVC.</li><li>Develop client site about: Angular 2, Material design, Semantic ui framework, accessibility, jquery and umbraco cms.</li></ul>"
+    }
+]

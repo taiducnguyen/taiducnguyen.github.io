@@ -1,0 +1,75 @@
+[
+    {
+        "type": "profile",
+        "fullName": "Tai Duc Nguyen",
+        "profileImage": "/images/profile.jpg",
+        "jobTitle": "Frontend Developer"
+    },
+    {
+        "type": "contact",
+        "title": "Contact Information",
+        "gender": "Male",
+        "dob": "1993-07-04",
+        "phoneNumber": "0985283505",
+        "email": "nguyentai.fit@gmail.com",
+        "address": "Yen Hoa, Cau Giay, Ha Noi"
+    },
+    {
+        "type": "normal",
+        "title": "Quotes",
+        "content": "- We can teach you skills but attitude - we can not."
+    },
+    {
+        "type": "normal",
+        "title": "Education",
+        "content": "[2011-2015] Engineer of Software Engineering<br/><a href='https://www.haui.edu.vn/en'>Ha Noi University of Industry</a>"
+    },
+    {
+        "type": "skills",
+        "title": "Skills",
+        "skillset": [
+            {
+                "name": "HTML/CSS",
+                "score": "8"
+            },
+            {
+                "name": "Javascript",
+                "score": "8"
+            },
+            {
+                "name": "jQuery",
+                "score": "8"
+            },
+            {
+                "name": "Angular",
+                "score": "7"
+            },
+            {
+                "name": "Reactjs",
+                "score": "7"
+            },
+            {
+                "name": "Vuejs",
+                "score": "6"
+            },
+            {
+                "name": "Nodejs",
+                "score": "6"
+            },
+            {
+                "name": "ASP.NET MVC",
+                "score": "5"
+            },
+            {
+                "name": "SQL Server",
+                "score": "5"
+            }
+
+        ]
+    },
+    {
+        "type": "normal",
+        "title": "Interests",
+        "content": "I like football, music, traveling, swimming,...<br/>"
+    }
+]

@@ -1,0 +1,63 @@
+.mainContent {
+  display: flex;
+}
+.personalInformation {
+  width: 40%;
+  padding: 20px;
+  background-color: #faf5ed;
+}
+.careerInformation {
+  width: 60%;
+  padding: 20px;
+  border-right: 1px solid #ebebeb;
+}
+.careerCardItem {
+  border-bottom: 2px solid #ffe8c4;
+  padding: 20px 0;
+}
+.isLast {
+  border-bottom: none;
+}
+.pointerLabel {
+  color: #ffa24d;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+.iconLinkContent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  & > span:last-child,
+  time {
+    display: inline-block;
+    margin-left: 10px !important;
+  }
+}
+.tagItems {
+  display: flex;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+.tagLabel {
+  min-width: 200px;
+}
+.tagContent {
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+}
+.skillSet {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  label {
+    min-width: 130px;
+  }
+}
