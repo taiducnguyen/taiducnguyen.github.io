@@ -51,6 +51,28 @@
     margin-left: 10px !important;
   }
 }
+.mainProjects {
+  position: relative;
+  h5 {
+    margin-bottom: 0;
+    @include tablet {
+      margin-bottom: 20px;
+    }
+  }
+}
+.time {
+  font-size: 0.875rem;
+  color: $color-gray;
+  display: inline-block;
+  margin-bottom: 20px;
+
+  @include tablet {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    margin-bottom: 0;
+  }
+}
 .tagItems {
   display: flex;
   word-wrap: break-word;

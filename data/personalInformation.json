@@ -3,7 +3,7 @@
         "type": "profile",
         "fullName": "Tai Duc Nguyen",
         "profileImage": "/images/profile.jpg",
-        "jobTitle": "Frontend Developer"
+        "jobTitle": "Senior Frontend Developer"
     },
     {
         "type": "contact",
@@ -16,6 +16,11 @@
     },
     {
         "type": "normal",
+        "title": "Introducing",
+        "content": "I am a developer and always find the new challenge to improve my self. I don't know everything, I'm not expert but I know how to resolve the problems."
+    },
+    {
+        "type": "normal",
         "title": "Quotes",
         "content": "- We can teach you skills but attitude - we can not. </br> - Responsibility decides who you are, what you can do."
     },
@@ -23,6 +28,11 @@
         "type": "normal",
         "title": "Education",
         "content": "[2011-2015] Engineer of Software Engineering<br/><a href='https://www.haui.edu.vn/en'>Ha Noi University of Industry</a>"
+    },
+    {
+        "type": "normal",
+        "title": "Certificates",
+        "content": "- Episerver CMS 7 <br/> - 2016 MCSD Web Applications (480, 486, 487)"
     },
     {
         "type": "skills",
@@ -70,6 +80,6 @@
     {
         "type": "normal",
         "title": "Interests",
-        "content": "I like football, music, traveling, swimming, reading, finance...<br/>"
+        "content": "I like football, music, traveling, swimming, reading, finance, ...<br/>"
     }
 ]

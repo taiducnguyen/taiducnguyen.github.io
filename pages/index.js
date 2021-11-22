@@ -19,6 +19,9 @@ export async function getServerSideProps(context) {
   const resWorkedProjects = await fetch(`${_host}/api/workedProject`);
   const workedProjects = await resWorkedProjects.json();
 
+  const resWorkedFreelanceProjects = await fetch(`${_host}/api/workedFreelanceProject`);
+  const workedFreelanceProjects = await resWorkedFreelanceProjects.json();
+
   const resObjective = await fetch(`${_host}/api/objective`);
   const objective = await resObjective.json();
 
@@ -27,6 +30,7 @@ export async function getServerSideProps(context) {
       personInfos,
       careers,
       workedProjects,
+      workedFreelanceProjects,
       objective
     }
   }
@@ -124,7 +128,7 @@ function renderContactInfo(data) {
   )
 }
 
-export default function Home({ personInfos, careers, workedProjects, objective }) {
+export default function Home({ personInfos, careers, workedProjects, workedFreelanceProjects, objective }) {
   return (
     <Layout home>
       <Head>
@@ -146,10 +150,34 @@ export default function Home({ personInfos, careers, workedProjects, objective }
             {data.subTitle && <h5>{data.subTitle}</h5>}
             <div dangerouslySetInnerHTML={{ __html: data.content }}></div>
           </div>)}
-          <div className={`${layoutStyles.careerCardItem} ${layoutStyles.isLast}`}>
+          <div className={`${layoutStyles.careerCardItem}`}>
             <h4 className={layoutStyles.pointerLabel}>Outstanding projects</h4>
             {workedProjects && workedProjects.map((data, i) => <div className={`${layoutStyles.mainProjects}`} key={i}>
               <h5>{data.projectName}</h5>
+              <span className={layoutStyles.time}>{data.time}</span>
+              <div className={layoutStyles.tagItems}>
+                <div className={layoutStyles.tagLabel}>Role</div>
+                <div className={layoutStyles.tagContent}>{data.role}</div>
+              </div>
+              <div className={layoutStyles.tagItems}>
+                <div className={layoutStyles.tagLabel}>Project Description</div>
+                <div dangerouslySetInnerHTML={{ __html: data.description }} className={layoutStyles.tagContent}></div>
+              </div>
+              <div className={layoutStyles.tagItems}>
+                <div className={layoutStyles.tagLabel}>Main responsibilities</div>
+                <div dangerouslySetInnerHTML={{ __html: data.responsibilities }} className={layoutStyles.tagContent}>{ }</div>
+              </div>
+              <div className={layoutStyles.tagItems}>
+                <div className={layoutStyles.tagLabel}>Skill set utilized</div>
+                <div className={layoutStyles.tagContent}>{data.skillset}</div>
+              </div>
+            </div>)}
+          </div>
+          <div className={`${layoutStyles.careerCardItem} ${layoutStyles.isLast}`}>
+            <h4 className={layoutStyles.pointerLabel}>Freelance projects</h4>
+            {workedFreelanceProjects && workedFreelanceProjects.map((data, i) => <div className={`${layoutStyles.mainProjects}`} key={i}>
+              <h5>{data.projectName}</h5>
+              <span className={layoutStyles.time}>{data.time}</span>
               <div className={layoutStyles.tagItems}>
                 <div className={layoutStyles.tagLabel}>Role</div>
                 <div className={layoutStyles.tagContent}>{data.role}</div>

@@ -1,0 +1,26 @@
+[
+    {
+        "type":"project",
+        "projectName": "ilang.vn",
+        "role": "Frontend Developer",
+        "description": "Develop the web app <a target='_blank' href='https://ilang.vn/'>https://ilang.vn/</a>",
+        "skillset": "Reactjs, bootstrap 4, Html5, javascript,  css3, sass, webpack",
+        "responsibilities": "<ul><li>Build project structure.</li><li>Develop frontend tasks related to: Reactjs, bootstrap 4, html5, css3.</li><li>Intergrate with java backend.</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "Locavip site",
+        "role": "Frontend Developer",
+        "description": "Maintain and develop new features of the web app <a target='_blank' href=' https://locavip.fr/'>https://locavip.fr/</a>",
+        "skillset": "Angular 6, bootstrap 3, Html5, javascript, css3, sass.",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Angular 6, bootstrap 3, html5, css3.</li><li>Integrate third parties for site: goole map, streatview,…</li><li>Intergrate with backend.</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "Supply chain – Coffee Management",
+        "role": "Frontend Developer",
+        "description": "Develop management web app for <a target='_blank' href='https://www.merconcoffeegroup.com/'>https://www.merconcoffeegroup.com/</a>",
+        "skillset": "Angular 6, bootstrap 3, Html5, javascript, jquery, css3, sass, webpack 4.",
+        "responsibilities": "<ul><li>Build project structure.</li><li>Develop frontend tasks related to: Angular 6, jquery, bootstrap 4, html5, css3.</li><li>Intergrate with Java backend service and blockchain.</li></ul>"
+    }
+]

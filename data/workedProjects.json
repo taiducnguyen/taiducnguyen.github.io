@@ -3,6 +3,7 @@
         "type":"project",
         "projectName": "Litium",
         "role": "Frontend Developer",
+        "time": "[Jun 2020 - present]",
         "description": "Maintain and develop a cms and ecommerce platform based on .Net. The product includes 2 parts: a public site template where users can buy goods is built by .Net Mvc and reactjs, an admin site where admins/editors can manage the site and products is built by .Net Mvc and Angular <a href='https://www.litium.com/' target='_blank'>https://www.litium.com/</a>",
         "skillset": "Angularjs, Angular, Reactjs, Html5, css3, sass, webpack",
         "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, Angular, Reactjs, html5, css3, webpack.</li><li>Intergrate with .Net including MVC, .net core</li></ul>"
@@ -11,14 +12,16 @@
         "type":"project",
         "projectName": "North shore care",
         "role": "Frontend Developer",
+        "time": "[Nov 2019 - May 2020]",
         "description": "Develop the new version of web site <a target='_blank' href='https://www.northshorecare.com/'>https://www.northshorecare.com/</a>",
         "skillset": "Vuejs, Html5, javascript, jquery, css3, sass, gulp",
-        "responsibilities": "<ul><li>Develop frontend tasks related to: Vuejs, javascript, html5, css3.</li><li>Intergrate with episerver backend cms</li><li>Improve performance of website</li></ul>"
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Vuejs, javascript, html5, css3.</li><li>Intergrate with episerver backend cms</li><li>Improve performance of website: desktop score - 88</li></ul>"
     },
     {
         "type":"project",
         "projectName": "RoyalMint ecommerce website",
         "role": "Frontend Developer",
+        "time": "[May 2019 - Oct 2019]",
         "description": "Develop the new version of web site <a target='_blank' href='https://royalmint.com'>https://royalmint.com/</a>",
         "skillset": "Angularjs, bootstrap 3, Html5, javascript, jquery, css3, sass, gulp",
         "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, jquery, bootstrap 3, html5, css3.</li><li>Intergrate with episerver backend cms</li></ul>"
@@ -27,24 +30,45 @@
         "type":"project",
         "projectName": "Farrow & Ball ecommerce website",
         "role": "Frontend Developer",
+        "time": "[Jun 2018 - Apr 2019]",
         "description": "Develop the new version of web site <a target='_blank' href='https://www.farrow-ball.com/'>https://www.farrow-ball.com/</a>",
         "skillset": "Angularjs, bootstrap 3, Html5, javascript, jquery, css3, sass, gulp",
         "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, jquery, bootstrap 3, html5, css3.</li><li>Intergrate with episerver backend cms</li></ul>"
     },
     {
         "type":"project",
-        "projectName": "ilang.vn",
+        "projectName": "Ahum video app",
         "role": "Frontend Developer",
-        "description": "Develop the web app <a target='_blank' href='https://ilang.vn/'>https://ilang.vn/</a>",
-        "skillset": "Reactjs, bootstrap 4, Html5, javascript,  css3, sass, webpack",
-        "responsibilities": "<ul><li>Develop frontend tasks related to: Reactjs, bootstrap 4, html5, css3.</li><li>Intergrate with java backend.</li></ul>"
+        "time": "[Jan 2018 - May 2018]",
+        "description": "Developing new features for video meeting app",
+        "skillset": "Reactjs, Html5, javascript, css3, sass, webpack2.",
+        "responsibilities": "<ul><li>Develop frontend tasks related to: Reactjs, html5, css3.</li><li>Intergrate app with Twilio api.</li><li>Intergrate with booking app in episerver cms.</li></ul>"
     },
     {
         "type":"project",
         "projectName": "WeAgree",
         "role": "Frontend Developer",
+        "time": "[Apr 2017 - Dec 2017]",
         "description": "Developing features of the <a target='_blank' href='https://www.weagree.nsw.gov.au/'>https://www.weagree.nsw.gov.au/</a>",
         "skillset": "Html5, Angular 2, Typescript , Material design, Sematic ui framework, Web Content Accessibility Guidelines (WCAG) 2.0, sass, javascript",
         "responsibilities": "<ul><li>Focus on develop front-end of the system and take responsibility as a contact point.</li><li>Support some back-end function related to ASP.NET MVC.</li><li>Develop client site about: Angular 2, Material design, Semantic ui framework, accessibility, jquery and umbraco cms.</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "Internal projects",
+        "role": "Backend/ Frontend Developer",
+        "time": "[Oct 2015 - Mar 2017]",
+        "description": "Work as a developer for intranet's project of Niteco including core framework and websites: Efficienttime, Recruiment system, Exam system, Human Resource Management System (HRMS), Niteco.com, KPI system, ...",
+        "skillset": "ASP.Net MVC, Html5, CSS3, Angularjs, Angular, Typescript, less, sass, javascript, jQuery",
+        "responsibilities": "<ul><li>Work with BA and PMO to take requirements.</li><li>Design structure of data model, data base for new requirement from PMO.</li><li>Setup environments to test and TeamCity to build automatically.</li><li>Support to integrate with another systems.</li></ul>"
+    },
+    {
+        "type":"project",
+        "projectName": "Niteco Young Talent",
+        "role": "Intern Developer",
+        "time": "[Jun 2015 - Sep 2015]",
+        "description": "The training program for fresher of Niteco company",
+        "skillset": "ASP.Net MVC, Html5, CSS3, javascript, jQuery",
+        "responsibilities": "<ul><li>Learning web development.</li><li>Take role as a team leader with 3 members.</li><li>Develop the demo project in course.</li></ul>"
     }
 ]
