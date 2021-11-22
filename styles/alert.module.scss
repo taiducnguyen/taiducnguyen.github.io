@@ -1,6 +1,8 @@
+@import './mixins';
+
 .success {
-  color: green;
+  color: $color-green;
 }
 .error {
-  color: red;
+  color: $color-red;
 }

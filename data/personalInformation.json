@@ -17,7 +17,7 @@
     {
         "type": "normal",
         "title": "Quotes",
-        "content": "- We can teach you skills but attitude - we can not."
+        "content": "- We can teach you skills but attitude - we can not. </br> - Responsibility decides who you are, what you can do."
     },
     {
         "type": "normal",
@@ -70,6 +70,6 @@
     {
         "type": "normal",
         "title": "Interests",
-        "content": "I like football, music, traveling, swimming,...<br/>"
+        "content": "I like football, music, traveling, swimming, reading, finance...<br/>"
     }
 ]

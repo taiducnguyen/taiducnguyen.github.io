@@ -1,1 +1,1 @@
-This is learning and introducing repo.
+Get more details about me here: https://taiducnguyen-github-io.vercel.app/

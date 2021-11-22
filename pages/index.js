@@ -19,7 +19,7 @@ export async function getServerSideProps(context) {
   const resWorkedProjects = await fetch(`${_host}/api/workedProject`);
   const workedProjects = await resWorkedProjects.json();
 
-  const resObjective = await fetch(`${_host}/api/workedProject`);
+  const resObjective = await fetch(`${_host}/api/objective`);
   const objective = await resObjective.json();
 
   return {
@@ -141,13 +141,11 @@ export default function Home({ personInfos, careers, workedProjects, objective }
             <h4 className={layoutStyles.pointerLabel}>Objective</h4>
             <div dangerouslySetInnerHTML={{ __html: objective.content }}></div>
           </div>
-          <div className={layoutStyles.careerCardItem}>
-            {careers && careers.map((data, i) => <div key={i}>
-              <h4 className={layoutStyles.pointerLabel}>{data.title}</h4>
-              {data.subTitle && <h5>{data.subTitle}</h5>}
-              <div dangerouslySetInnerHTML={{ __html: data.content }}></div>
-            </div>)}
-          </div>
+          {careers && careers.map((data, i) => <div className={layoutStyles.careerCardItem} key={i}>
+            <h4 className={layoutStyles.pointerLabel}>{data.title}</h4>
+            {data.subTitle && <h5>{data.subTitle}</h5>}
+            <div dangerouslySetInnerHTML={{ __html: data.content }}></div>
+          </div>)}
           <div className={`${layoutStyles.careerCardItem} ${layoutStyles.isLast}`}>
             <h4 className={layoutStyles.pointerLabel}>Outstanding projects</h4>
             {workedProjects && workedProjects.map((data, i) => <div className={`${layoutStyles.mainProjects}`} key={i}>

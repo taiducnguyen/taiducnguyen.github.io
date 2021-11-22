@@ -9,6 +9,6 @@
         "type":"experience",
         "title": "WORK EXPERIENCE",
         "subTitle": "[June 2015 – present] .Net Developer,  Researcher, Front-end developer, NITECO VIETNAM",
-        "content": "<ul><li>Work as a developer with AngularJS, Angular, Reactjs, ASP.NET MVC, SQL Server</li><li>Involve in developing framework projects that support upper level projects, including data manipulating and indexing, server side caching, core components which are reusable by another projects. CDN (content delivery network) integration</li><li>Participate in development of projects that based on core framework projects: integrating and modifying components so that they fit with the projects' specific requirement, help resolve problems which rose from integration phases.</li></ul>"
+        "content": "<ul><li>Work as a developer with AngularJS, Angular, Vuejs, Reactjs, ASP.NET MVC, SQL Server</li><li>Involve in developing framework projects that support upper level projects, including data manipulating and indexing, server side caching, core components which are reusable by another projects. CDN (content delivery network) integration</li><li>Participate in development of projects that based on core framework projects: integrating and modifying components so that they fit with the projects' specific requirement, help resolve problems which rose from integration phases.</li></ul>"
     }
 ]

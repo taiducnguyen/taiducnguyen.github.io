@@ -1,26 +1,38 @@
+@import "./mixins";
+
 .mainContent {
   display: flex;
+  flex-direction: column;
+  @include tablet {
+    flex-direction: row;
+  }
 }
 .personalInformation {
-  width: 40%;
+  width: 100%;
   padding: 20px;
-  background-color: #faf5ed;
+  background-color: $color-orange-light;
+  @include tablet {
+    width: 40%;
+  }
 }
 .careerInformation {
-  width: 60%;
+  width: 100%;
   padding: 20px;
-  border-right: 1px solid #ebebeb;
+  @include tablet {
+    width: 60%;
+    border-right: 1px solid $color-gray2;
+  }
 }
 .careerCardItem {
-  border-bottom: 2px solid #ffe8c4;
+  border-bottom: 1px solid $color-orange;
   padding: 20px 0;
 }
 .isLast {
   border-bottom: none;
 }
 .pointerLabel {
-  color: #ffa24d;
-  font-weight: 600;
+  color: $color-orange;
+  font-weight: 700;
   font-size: 1.25rem;
   margin: 0 0 10px;
   text-transform: uppercase;
@@ -45,7 +57,10 @@
   margin-bottom: 10px;
 }
 .tagLabel {
-  min-width: 200px;
+  min-width: 180px;
+  @include mobile {
+    display: none;
+  }
 }
 .tagContent {
   ul {

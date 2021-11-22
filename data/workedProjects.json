@@ -1,9 +1,9 @@
 [
     {
         "type":"project",
-        "projectName": "Litium Back Office System",
+        "projectName": "Litium",
         "role": "Frontend Developer",
-        "description": "Litium BO is CMS system for content and ecommerce website <a href='https://www.litium.com/' target='_blank'>https://www.litium.com/</a>",
+        "description": "Maintain and develop a cms and ecommerce platform based on .Net. The product includes 2 parts: a public site template where users can buy goods is built by .Net Mvc and reactjs, an admin site where admins/editors can manage the site and products is built by .Net Mvc and Angular <a href='https://www.litium.com/' target='_blank'>https://www.litium.com/</a>",
         "skillset": "Angularjs, Angular, Reactjs, Html5, css3, sass, webpack",
         "responsibilities": "<ul><li>Develop frontend tasks related to: Angularjs, Angular, Reactjs, html5, css3, webpack.</li><li>Intergrate with .Net including MVC, .net core</li></ul>"
     },
@@ -17,7 +17,7 @@
     },
     {
         "type":"project",
-        "projectName": "RoyallMint ecommerce web site",
+        "projectName": "RoyalMint ecommerce website",
         "role": "Frontend Developer",
         "description": "Develop the new version of web site <a target='_blank' href='https://royalmint.com'>https://royalmint.com/</a>",
         "skillset": "Angularjs, bootstrap 3, Html5, javascript, jquery, css3, sass, gulp",
@@ -25,7 +25,7 @@
     },
     {
         "type":"project",
-        "projectName": "Farrow & Ball ecommerce web site",
+        "projectName": "Farrow & Ball ecommerce website",
         "role": "Frontend Developer",
         "description": "Develop the new version of web site <a target='_blank' href='https://www.farrow-ball.com/'>https://www.farrow-ball.com/</a>",
         "skillset": "Angularjs, bootstrap 3, Html5, javascript, jquery, css3, sass, gulp",
@@ -44,7 +44,7 @@
         "projectName": "WeAgree",
         "role": "Frontend Developer",
         "description": "Developing features of the <a target='_blank' href='https://www.weagree.nsw.gov.au/'>https://www.weagree.nsw.gov.au/</a>",
-        "skillset": "Reactjs, bootstrap 4, Html5, javascript,  css3, sass, webpack",
+        "skillset": "Html5, Angular 2, Typescript , Material design, Sematic ui framework, Web Content Accessibility Guidelines (WCAG) 2.0, sass, javascript",
         "responsibilities": "<ul><li>Focus on develop front-end of the system and take responsibility as a contact point.</li><li>Support some back-end function related to ASP.NET MVC.</li><li>Develop client site about: Angular 2, Material design, Semantic ui framework, accessibility, jquery and umbraco cms.</li></ul>"
     }
 ]
