@@ -20,6 +20,8 @@
   padding: 20px;
   @include tablet {
     width: 60%;
+  }
+  @include desktop {
     border-right: 1px solid $color-gray2;
   }
 }

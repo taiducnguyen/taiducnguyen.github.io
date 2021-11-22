@@ -1,11 +1,11 @@
 @import "../styles/mixins";
 
 .container {
-  padding: 0 1rem;
-  margin: 1rem auto 6rem;
   width: 100%;
   @include desktop {
     max-width: 60rem;
+    padding: 0 1rem;
+    margin: 1rem auto 6rem;
   }
 }
 

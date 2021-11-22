@@ -13,7 +13,7 @@
 }
 
 @mixin desktop {
-  @media screen and (min-width: #{$md-width}) {
+  @media screen and (min-width: #{$lg-width}) {
     @content;
   }
 }
