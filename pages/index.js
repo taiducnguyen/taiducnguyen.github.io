@@ -8,18 +8,18 @@ import informationStyles from '../styles/information.module.scss'
 import Date from '../components/date'
 import StarRating from '../components/star'
 
-export async function getStaticProps(context) {
-
-  const resPerson = await fetch('http://localhost:3000/api/person');
+export async function getServerSideProps(context) {
+  const _host = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://taiducnguyen-github-io.vercel.app';
+  const resPerson = await fetch(`${_host}/api/person`);
   const personInfos = await resPerson.json();
 
-  const resCareer = await fetch('http://localhost:3000/api/career');
+  const resCareer = await fetch(`${_host}/api/career`);
   const careers = await resCareer.json();
 
-  const resWorkedProjects = await fetch('http://localhost:3000/api/workedProject');
+  const resWorkedProjects = await fetch(`${_host}/api/workedProject`);
   const workedProjects = await resWorkedProjects.json();
 
-  const resObjective = await fetch('http://localhost:3000/api/workedProject');
+  const resObjective = await fetch(`${_host}/api/workedProject`);
   const objective = await resObjective.json();
 
   return {
@@ -56,7 +56,7 @@ function renderPersonInfo(data, isLast) {
           {data.skillset && data.skillset.map((skill, i) =>
             <div key={i} className={layoutStyles.skillSet}>
               <label>{skill.name}</label>
-              {StarRating({ value: +skill.score })}
+              {StarRating({ value: +skill.score, readonly: true })}
             </div>
           )}
         </div>
@@ -125,10 +125,8 @@ function renderContactInfo(data) {
 }
 
 export default function Home({ personInfos, careers, workedProjects, objective }) {
-  const name = 'Tai Duc Nguyen'
   return (
     <Layout home>
-      {/* Keep the existing code here */}
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -138,7 +136,6 @@ export default function Home({ personInfos, careers, workedProjects, objective }
             {renderPersonInfo(data, (personInfos.length - 1 === i))}
           </div>)}
         </section>
-        {/* Add this <section> tag below the existing <section> tag */}
         <section className={layoutStyles.careerInformation}>
           <div className={layoutStyles.careerCardItem}>
             <h4 className={layoutStyles.pointerLabel}>Objective</h4>
