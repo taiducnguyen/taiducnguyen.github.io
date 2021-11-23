@@ -142,7 +142,7 @@ export default function Home({ personInfos, careers, workedProjects, workedFreel
         </section>
         <section className={layoutStyles.careerInformation}>
           <div className={layoutStyles.careerCardItem}>
-            <h4 className={layoutStyles.pointerLabel}>Objective</h4>
+            <h4 className={layoutStyles.pointerLabel}>Objectives</h4>
             <div dangerouslySetInnerHTML={{ __html: objective.content }}></div>
           </div>
           {careers && careers.map((data, i) => <div className={layoutStyles.careerCardItem} key={i}>
